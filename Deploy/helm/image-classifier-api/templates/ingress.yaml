@@ -36,6 +36,7 @@ spec:
             backend:
               service:
                 name: imageclassifier
-                port: http
+                port:
+                  number: 80
   {{- end }}
 {{- end }}

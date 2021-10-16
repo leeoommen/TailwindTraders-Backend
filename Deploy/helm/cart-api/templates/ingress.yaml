@@ -36,6 +36,7 @@ spec:
             backend:
               service:
                 name: cart
-                port: http
+                port:
+                  number: 80
   {{- end }}
 {{- end }}

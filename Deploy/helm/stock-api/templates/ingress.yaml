@@ -36,6 +36,7 @@ spec:
             backend:
               service:
                 name: stock
-                port: http
-  {{- end }}
+                port:
+                  number: 80
+{{- end }}
 {{- end }}

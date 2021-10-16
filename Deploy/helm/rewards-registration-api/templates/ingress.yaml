@@ -36,6 +36,7 @@ spec:
             backend:
               service:
                 name: rewards-registration
-                port: http
-  {{- end }}
+                port:
+                  number: 80
+{{- end }}
 {{- end }}
